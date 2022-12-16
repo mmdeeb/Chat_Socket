@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" styleClass="Anchorpane" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextField fx:id="Text_F_Message" layoutX="226.0" layoutY="500.0" prefHeight="41.0" prefWidth="400.0" promptText="Type something to send ..." styleClass="Text_Fild_send" stylesheets="@Style.css" />
+        <Button fx:id="Btn_Send" layoutX="632.0" layoutY="505.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="45.0" styleClass="send_butten" stylesheets="@Style.css" text="Send" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="11.0" />
+            </font>
+        </Button>
+        <ScrollPane fx:id="Scrol_Pain_Message" fitToWidth="true" layoutX="215.0" layoutY="59.0" prefHeight="433.0" prefWidth="484.0" styleClass="Scrollpane" stylesheets="@Style.css">
+            <content>
+                <VBox fx:id="Vbox_Message" prefHeight="432.0" prefWidth="441.0" />
+
+            </content>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ScrollPane>
+        <VBox fx:id="Vbox_Contact" layoutX="1.0" layoutY="106.0" prefHeight="445.0" prefWidth="216.0" style="-fx-background-color: #4e4e4e;" styleClass="list_c" stylesheets="@Style.css">
+            <children>
+                <Button fx:id="btn_ja" mnemonicParsing="false" prefHeight="30.0" prefWidth="216.0" stylesheets="@Style.css" text="Jamil">
+                    <styleClass>
+                        <String fx:value="Button_mohammed" />
+                        <String fx:value="conc" />
+                    </styleClass>
+                </Button>
+                <Button fx:id="btn_majd" mnemonicParsing="false" prefHeight="30.0" prefWidth="231.0" styleClass="conc" stylesheets="@Style.css" text="Majd" />
+            </children></VBox>
+        <Label fx:id="Lable_Status" contentDisplay="CENTER" layoutX="373.0" layoutY="18.0" prefHeight="30.0" prefWidth="76.0" text="Online..." textFill="#fffbfb" />
+        <Button fx:id="Btn_Add_Contact" layoutY="59.0" minHeight="15.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="216.0" style="-fx-background-color: #28282b;" text="contact " textAlignment="CENTER" textFill="#fefeff">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Button>
+        <TextField layoutX="10.0" layoutY="12.0" prefHeight="41.0" prefWidth="197.0" promptText="search" styleClass="search" stylesheets="@Style.css" />
+        <Circle fill="#50c984" layoutX="426.0" layoutY="33.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    </children>
+</AnchorPane>

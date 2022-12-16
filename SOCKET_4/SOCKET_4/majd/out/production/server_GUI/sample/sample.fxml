@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" styleClass="Anchorpane" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextField fx:id="Text_F_Message" layoutX="226.0" layoutY="504.0" prefHeight="25.0" prefWidth="400.0" styleClass="Text_Fild" stylesheets="@Style.css" />
+        <Button fx:id="Btn_Send" layoutX="634.0" layoutY="509.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #4e4e4e; -fx-border-color: black;" text="Send" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="11.0" />
+            </font></Button>
+        <ScrollPane fx:id="Scrol_Pain_Message" fitToWidth="true" layoutX="215.0" layoutY="59.0" prefHeight="433.0" prefWidth="484.0" styleClass="Scrollpane" stylesheets="@Style.css">
+            <content>
+                <VBox fx:id="Vbox_Message" prefHeight="432.0" prefWidth="441.0" />
+
+            </content>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ScrollPane>
+        <Label fx:id="Lable_Title" layoutX="217.0" layoutY="14.0" prefHeight="44.0" prefWidth="126.0" text="Majd" textFill="WHITE">
+            <font>
+                <Font size="26">
+
+                </Font>
+            </font>
+            <graphic>
+                <ImageView fitHeight="44.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" />
+            </graphic>
+        </Label>
+        <VBox fx:id="Vbox_Contact" layoutY="120.0" prefHeight="433.0" prefWidth="216.0" style="-fx-background-color: #4e4e4e;" />
+        <Button fx:id="Btn_Add_Contact" layoutX="1.0" layoutY="60.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="216.0" style="-fx-background-color: #28282b;" text="ADD CONTACT " textAlignment="CENTER" textFill="#fefeff">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Button>
+        <Label fx:id="Lable_Status" contentDisplay="CENTER" layoutX="350.0" layoutY="21.0" prefHeight="30.0" prefWidth="76.0" text="Online..." textFill="#fffbfb" />
+    </children>
+</AnchorPane>

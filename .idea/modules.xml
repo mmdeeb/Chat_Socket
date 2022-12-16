@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SOCKET_4.iml" filepath="$PROJECT_DIR$/.idea/SOCKET_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOCKET_4/SOCKET_4/jamil/jamil.iml" filepath="$PROJECT_DIR$/SOCKET_4/SOCKET_4/jamil/jamil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOCKET_4/SOCKET_4/majd/majd.iml" filepath="$PROJECT_DIR$/SOCKET_4/SOCKET_4/majd/majd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOCKET_4/SOCKET_4/mohammed/mohammed.iml" filepath="$PROJECT_DIR$/SOCKET_4/SOCKET_4/mohammed/mohammed.iml" />
+    </modules>
+  </component>
+</project>

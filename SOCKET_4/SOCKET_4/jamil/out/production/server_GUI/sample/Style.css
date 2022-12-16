@@ -1,0 +1,21 @@
+.Button{
+-fx-background-color:#4e4e4e;
+-fx-border-color:black;
+}
+.Text_Fild{
+-fx-background-radius:20px;
+-fx-border-radius:20px;
+-fx-border-color:#FFFFFF;
+-fx-font:20 arial ;
+-fx-text-fill:#FFFFFF;
+-fx-background-color:#4e4e4e;
+}
+.Anchorpane{
+-fx-background-color:#4e4e4e;
+}
+.Scrollpane{
+-fx-border-color:black;
+}
+.v_box{
+
+}
